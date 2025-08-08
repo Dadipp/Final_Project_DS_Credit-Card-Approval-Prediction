@@ -1,23 +1,23 @@
 # 🏦 Credit Card Approval Prediction
 
-Proyek ini bertujuan untuk memprediksi persetujuan aplikasi kartu kredit berdasarkan data historis, termasuk histori pembayaran dan data finansial pemohon. Model ini dibangun menggunakan **Python**, **Scikit-learn**, dan di-deploy menggunakan **Streamlit**.
+This project aims to predict the approval of credit card applications based on historical data, including applicants’ payment history and financial information. The model is built using **Python**, **Scikit-learn**, and deployed with **Streamlit**.
 
-## 🚀 Demo Aplikasi
-Kunjungi aplikasi Streamlit:  
+## 🚀 Link Streamlit 
+Visit the Streamlit application:  
 👉 [Credit Card Approval Prediction](https://finalprojectdscredit-card-approval-prediction-szkuw6h6i4wxupem.streamlit.app)
 
 ---
 
-## 📌 Fitur
-- **Prediksi Persetujuan**: Menggunakan model XGBoost untuk memprediksi apakah aplikasi kartu kredit akan disetujui berdasarkan input pengguna.
-- **Visualisasi Data**: Menampilkan Exploratory Data Analysis (EDA) dengan histogram, bar chart, dan pie chart untuk memberikan insight.
-- **Penjelasan Prediksi**: Menggunakan **SHAP values** untuk menginterpretasikan fitur yang paling memengaruhi hasil prediksi.
-- **Pengunggahan Dataset**: Mendukung analisis dengan mengunggah dataset baru untuk evaluasi lebih lanjut.
-- **Navigasi Interaktif**: Menu yang mencakup Project Background, Business Objective, Data Understanding, EDA, Feature Correlation, Preprocessing, Evaluation, Prediction, dan Conclusion.
+## 📌 Features
+- **Approval Prediction**: Uses an XGBoost model to predict whether a credit card application will be approved based on user input.
+- **Data Visualization**: Displays Exploratory Data Analysis (EDA) with histograms, bar charts, and pie charts to provide insights.
+- **Prediction Explainability**: Uses **SHAP values** to interpret the features that most influence the prediction outcome.
+- **Dataset Upload**: Supports analyzing new datasets for further evaluation.
+- **Interactive Navigation**: Menu includes Project Background, Business Objective, Data Understanding, EDA, Feature Correlation, Preprocessing, Evaluation, Prediction, and Conclusion.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 - **Python**
 - **Streamlit**
 - **Pandas & NumPy**
@@ -28,13 +28,13 @@ Kunjungi aplikasi Streamlit:
 
 ---
 
-## 📋 Struktur Proyek
-- **Project Background**: Penjelasan tujuan proyek untuk menganalisis kelayakan kredit.
-- **Business Objective**: Tujuan utama dan spesifik, termasuk evaluasi model XGBoost.
-- **Data Understanding**: Pratinjau dataset dan statistik dasar.
-- **EDA**: Analisis eksploratif dengan visualisasi distribusi usia, tipe pendapatan, dan status persetujuan.
-- **Feature Correlation**: Heatmap untuk mengidentifikasi korelasi antar fitur.
-- **Preprocessing**: Proses konversi target, One-Hot Encoding, pembagian data, standarisasi, penghapusan fitur, dan SMOTE.
-- **Evaluation**: Evaluasi model dengan metrik AUC, Precision, Recall, dan F1-Score, serta SHAP untuk feature importance.
-- **Prediction**: Form input untuk memprediksi kelayakan kredit secara interaktif.
-- **Conclusion**: Ringkasan hasil dan rekomendasi untuk implementasi lebih lanjut.
+## 📋 Project Structure
+- **Project Background**: Explains the purpose of the project to analyze creditworthiness.
+- **Business Objective**: Main and specific objectives, including XGBoost model evaluation.
+- **Data Understanding**: Dataset preview and basic statistics.
+- **EDA**: Exploratory analysis with visualizations of age distribution, income type, and approval status.
+- **Feature Correlation**: Heatmap to identify correlations between features.
+- **Preprocessing**: Target conversion, One-Hot Encoding, data splitting, standardization, feature removal, and SMOTE.
+- **Evaluation**: Model evaluation with AUC, Precision, Recall, and F1-Score metrics, plus SHAP for feature importance.
+- **Prediction**: Input form to predict creditworthiness interactively.
+- **Conclusion**: Summary of results and recommendations for further implementation.
